@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <Incrementer />
   <HelloWorld msg="Welcome to my personal website"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Incrementer from './components/Incrementer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Incrementer
   }
 }
 </script>
